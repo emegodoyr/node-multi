@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+      <!-- References a Handlebars partial in views/partials/head.handlebars -->
+      {{>head}}
+
+      <title>Express Tutorial</title>
+    </head>
+
+    <body>
+
+    <!-- References a Handlebars partial in views/partials/bsnavbar.handlebars -->
+    {{>bsnavbar}}
+
+    <!-- The HTML for each view goes here -->
+    <div class="container">
+    {{{body}}}
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </body>
+</html>
